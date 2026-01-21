@@ -1,7 +1,7 @@
 const num = Number(process.argv[2])
 
 if (Number.isNaN(num)||num<=0){
-    console.log('Invalid input')
+    process.exit
 }
 
 for (let i = 0 ; i <= num; i++){
